@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Система отзывов</title>
+</head>
+<body>
+<h1>Оставьте свой отзыв</h1>
+<label for="review">Ваш отзыв:</label>
+<textarea id="review" rows="4" cols="50"></textarea>
+<button onclick="addReview()">Отправить</button>
+<p id="error-message" class="error"></p>
+<div id="reviews" class="review-container"></div>
+
+<script src="reviews.js"></script>
+</body>
+</html>
